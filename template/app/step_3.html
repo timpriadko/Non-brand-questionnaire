@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Step 3</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <main class="main-contact step-3 container">
+    <div class="grid-position">
+      <div class="grid-position--top">
+
+        <div class="step-block">
+          <div class="step">2</div>
+
+          <p class="text padding-center">
+            {{EN: Where do you usually buy your fragrance from?||PL: Where do you usually buy your fragrance from?}}
+          </p>
+        </div>
+
+        <form action="step_4.html" method="get">
+          <input type="hidden" name="question" value="Where do you usually buy your fragrance from?" />
+
+          <div class="btns full column">
+            <label class="btn small-text">
+              <input type="submit" name="answer" value="Online" hidden />
+
+              {{EN: Online||PL: Online}}
+            </label>
+
+            <label class="btn small-text">
+              <input type="submit" name="answer" value="In-Store" hidden />
+
+              {{EN: In-Store||PL: In-Store}}
+            </label>
+
+            <label class="btn small-text">
+              <input type="submit" name="answer" value="Both" hidden />
+
+              {{EN: Both||PL: Both}}
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+  <script src="js/keyboard/jquery.keyboard.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

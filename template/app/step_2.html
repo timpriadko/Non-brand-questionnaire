@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Step 2</title>
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <main class="main-contact container step-2">
+    <div class="grid-position">
+      <div class="grid-position--top">
+
+        <div class="step-block">
+          <div class="step">1</div>
+
+          <p class="text padding-center">
+            {{EN: When would you like to use this fragrance?||PL: When would you like to use this fragrance?}}
+          </p>
+        </div>
+
+        <form action="step_3.html" method="get">
+          <input type="hidden" name="question" value="When would you like to use this fragrance?" />
+          <div class="btns full column">
+            <label class="btn">
+              <input type="submit" name="answer" value="Day" hidden />
+
+              {{EN: Day||PL: Day}}
+            </label>
+
+            <label class="btn">
+              <input type="submit" name="answer" value="Night" hidden />
+
+              {{EN: Night||PL: Night}}
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+  <script src="js/keyboard/jquery.keyboard.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
